@@ -4,10 +4,10 @@
     <!-- 测试目标API服务器Host -->
     <parameter name="APIHost" value="http://wysf-pre.sunac.com.cn" />
     <!-- 测试目标WEB服务器Host -->
-    <parameter name="WebHost" value="http://wysf-pre.sunac.com.cn" />
+    <parameter name="WebHost" value="http://www.baidu.com" />
 
     <!-- Web 测试 Client 配置 -->
-    <parameter name="WebClient" value="" />
+    <parameter name="WebClient" value="./clients/WebClients-Linux.properties" />
     <!--parameter name="WebClient" value="./clients/WebClients-Linux.properties" /-->
 
     <!-- Android 测试 Client 配置 -->
