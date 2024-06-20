@@ -8,7 +8,7 @@
 
     <!-- Web 测试 Client 配置 -->
     <parameter name="WebClient" value="" />
-    <!--parameter name="WebClient" value="./clients/WebClients-iOS.properties" /-->
+    <!--parameter name="WebClient" value="./clients/WebClients-Linux.properties" /-->
 
     <!-- Android 测试 Client 配置 -->
     <!--parameter name="AndroidClient" value="./clients/AndroidClients.properties" /-->
