@@ -4,11 +4,11 @@
     <!-- 测试目标API服务器Host -->
     <parameter name="APIHost" value="http://wysf-pre.sunac.com.cn" />
     <!-- 测试目标WEB服务器Host -->
-    <parameter name="WebHost" value="http://www.baidu.com" />
+    <parameter name="WebHost" value="http://wysf-pre.sunac.com.cn" />
 
     <!-- Web 测试 Client 配置 -->
-    <parameter name="WebClient" value="./clients/WebClients-Linux.properties" />
-    <!--parameter name="WebClient" value="./clients/WebClients-Linux.properties" /-->
+<!--	<parameter name="WebClient" value="" />-->
+    <parameter name="WebClient" value="./clients/WebClients.properties" />
 
     <!-- Android 测试 Client 配置 -->
     <!--parameter name="AndroidClient" value="./clients/AndroidClients.properties" /-->
@@ -23,20 +23,21 @@
 <!--    <parameter name="DatabaseClient" value="./clients/DatabaseClients.properties" />-->
 
     <!-- 测试用例Excel文件在本地的位置和文件名 -->
-    <parameter name="Excel" value="./Integration-Auto-TestCase.xls" />
+    <parameter name="Excel" value="./XinShouFei-Integration-Auto-TestCase-xin.xls" />
     <!-- 测试用例Excel文件支持WPS云文档URL（文档权限设置为任何人可查看） -->
 <!--    <parameter name="Excel" value="https://sunac.feishu.cn/file/G44qbE5jBoxUvux82yncc7JWnvg?from=from_copylink" />-->
     <parameter name="Pass" value="8@[cZ$09" />
-    <parameter name="Down" value="/Users/sunacwy/Downloads/XinShouFei-Integration-Auto-TestCase.xls" />
+<!--    <parameter name="Down" value="/Users/sunacwy/Downloads/XinShouFei-Integration-Auto-TestCase.xls" />-->
+    <parameter name="Down" value="" />
     <!-- 测试用例Excel文件支持WPS云文档URL（文档权限设置为任何人可查看） -->
 <!--    <parameter name="Excel" value="https://kdocs.cn/l/cvVJjg1BsubY" />-->
     <!-- jenkins服务的 WorkSpace 目录路径,可以不填写 -->
-    <parameter name="JenkinsWS" value="http://172.17.32.117:8080/job/integration-auto-test/ws" />
+    <parameter name="JenkinsWS" value="http://localhost:8080/job/auto-test-simple/ws" />
 <!--    <parameter name="JenkinsWS" value="" />-->
     <!-- 测试用例Excel里的Sheet名 -->
     <parameter name="sheet" value="PRE环境" />
     <!-- 执行测试用例类型，执行多个类型时可以用 "," 号分隔开 -->
-    <parameter name="runType" value="#,0,1,2,3,4" />
+    <parameter name="runType" value="#" />
 
     <test name="PRE环境" preserve-order="true">
         <classes>
