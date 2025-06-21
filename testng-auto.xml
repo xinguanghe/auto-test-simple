@@ -23,7 +23,7 @@
     <!--    <parameter name="DatabaseClient" value="./clients/DatabaseClients.properties" />-->
 
     <!-- 测试用例Excel文件在本地的位置和文件名 -->
-    <parameter name="Excel" value="C:\Users\NB-BQ-184\Downloads\Integration-Auto-TestCase.xlsx" />
+    <parameter name="Excel" value="./XinShouFei-Integration-Auto-TestCase-xin.xls" />
     <parameter name="Cloud" value="" />
 
     <!-- jenkins服务的 WorkSpace 目录路径,可以不填写 -->
