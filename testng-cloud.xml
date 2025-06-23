@@ -27,8 +27,8 @@
     <parameter name="Cloud" value="./cloud.txt" />
 
     <!-- jenkins服务的 WorkSpace 目录路径,可以不填写 -->
-    <!--    <parameter name="JenkinsWS" value="http://localhost:8080/job/auto-test-simple/ws" />-->
-    <parameter name="JenkinsWS" value="" />
+    <parameter name="JenkinsWS" value="http://localhost:8080/job/auto-test-simple/ws" />
+    <!--    <parameter name="JenkinsWS" value="" />-->
 
     <!-- 测试用例Excel里的Sheet名 -->
     <parameter name="sheet" value="PRE环境" />
