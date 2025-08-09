@@ -1,8 +1,8 @@
 {"Type":"Open","Local":"https://asg5eigfy2he.sg.larksuite.com/sheets/ZB1Rsu2OfhIXjJtbHIilqGjkgpd"}
 {"Type":"Set","Local":"XPath: //input[@class='password-input']","Value":"8H1199&9","Index":"0"}
-{"Type":"Click","Local":"XPath: //button[text()='确认']","Index":"0","Sleep":"5"}
+{"Type":"Click","Local":"XPath: //button[text()='확인']","Index":"0","Sleep":"5"}
 {"Type":"Click","Local":"XPath: //button[@data-selector='more-menu']","Index":"0","Sleep":"2"}
 {"Type":"Shot","Name":"test1.png"}
-{"Type":"Move","Local":"XPath: //span[text()='下载为']","Index":"2"}
+{"Type":"Move","Local":"XPath: //span[text()='다음 형식으로 다운로드']","Index":"2"}
 {"Type":"Shot","Name":"test2.png"}
-{"Type":"Click","Local":"XPath: //span[text()='本地 Excel 表格(.xlsx)']","Index":"0","Sleep":"10"}
+{"Type":"Click","Local":"XPath: //span[text()='엑셀(.xlsx)']","Index":"0","Sleep":"10"}
